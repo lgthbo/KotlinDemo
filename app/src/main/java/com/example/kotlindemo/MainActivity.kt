@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     fun buttonClick(view: View){
         editText3.setText( (editText.text.toString().toDouble() + (editText2.text).toString().toDouble()).toString() )
     }
-    fun changePageToFotune(view: View){
+    fun changePageToFortune(view: View){
         var myIntent = Intent(this,FortuneTelling::class.java)
         startActivity(myIntent)
     }
