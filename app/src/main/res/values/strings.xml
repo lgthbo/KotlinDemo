@@ -16,6 +16,13 @@
         <item>凶</item>
     </string-array>
 
+    <string name="top">往上</string>
+    <string name="down">往下</string>
+    <string name="left">往左</string>
+    <string name="right">往右</string>
+
+    <string name="onClick">被點了Q_Q</string>
+
     <string name="back">返回</string>
     <string name="addTool">加法玩具</string>
     <string name="JanBuTool">占卜玩具</string>
