@@ -18,14 +18,15 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="139dp"
-        android:layout_height="133dp"
+        android:layout_width="136dp"
+        android:layout_height="135dp"
+        android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.235"
-        app:srcCompat="@android:drawable/presence_audio_away" />
+        app:srcCompat="@drawable/hotdog" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline3"
@@ -33,5 +34,17 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_begin="20dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="133dp"
+        android:layout_height="136dp"
+        android:background="@drawable/hotdog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.371" />
 
 </android.support.constraint.ConstraintLayout>
